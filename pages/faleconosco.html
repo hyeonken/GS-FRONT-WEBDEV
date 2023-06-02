@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fale Conosco</title>
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/faleconosco.css">
 </head>
 <body>
     <div class="index">
@@ -24,17 +24,28 @@
             </div>
         </header>
         <main id="formsGeral">
+            <section id="texto">
+                <h1 class="titulo">SUA OPNIÃO</h1>
+                <h1 class="titulo">IMPORTA MUITO!</h1>
+                <h2 id="subtitulo">DÚVIDAS, SUGESTÕES, RECLAMAÇÕES OU</h2>
+                <h2 id="subtitulo">ELOGIOS!</h2>
+            </section>
             <section id="formulario">
-                <h2></h2>
                 <form action="index.html" method="get" onsubmit="return false">
                     <div id="user">
-                        <input type="text" name="nmUser" id="idUser" placeholder="email@email.com">
+                        <input type="text" name="nmUser" id="idUser" placeholder="Nome Completo">
                     </div>
-                    <div id="pass">
-                        <input type="password" name="pass" id="idPass" placeholder="Senha">
+                    <div id="email">
+                        <input type="email" name="email" id="idEmail" placeholder="email@email.com">
+                    </div>
+                    <div id="number">
+                        <input type="number" name="number" id="idNumber" placeholder="(xx) xxxxx - xxxx">
+                    </div>
+                    <div id="coment">
+                        <textarea type="text" name="coment" id="idComent" placeholder="Nos conte o que pensa!"></textarea>
                     </div>
                     <div id="botao">
-                        <button type="submit" id="btnSubmit">ENTRAR</button>
+                        <button type="submit" id="btnSubmit">NOS CONTE</button>
                     </div>
                 </form>
             </section>

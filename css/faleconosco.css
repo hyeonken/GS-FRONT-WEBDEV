@@ -88,15 +88,29 @@ main{
     margin: 0% 0% 0% 25.5%;
 }
 
+#texto{
+    margin-top: 0.5%;
+    margin-bottom: 5%;
+}
+
+.titulo{
+    font-size: 48px;
+    color: #55280B;
+}
+
+#subtitulo{
+    color: #55280B;
+}
+
 #formulario{
     width: 15%;
+    margin-right: 10%;
 }
 
 #user{
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
-
 }
 
 #idUser{
@@ -108,14 +122,14 @@ main{
     border-style: none;
 }
 
-#pass{
-    margin-top: 20%;
+#email{
+    margin-top: 5%;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 2px;
 }
 
-#idPass{
+#idEmail{
     text-align: center;
     color: #55280B;
     height: 30px;
@@ -124,11 +138,46 @@ main{
     border-style: none;
 }
 
+#number{
+    margin-top: 5%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 2px;
+}
+
+#idNumber{
+    text-align: center;
+    color: #55280B;
+    height: 30px;
+    width: 100%;
+    border-color: #F2F2F2;
+    border-style: none;
+}
+
+#coment{
+    margin-top: 5%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+
+#idComent{
+    text-align: top;
+    padding-left: 5%;
+    padding-bottom: 40%;
+    padding-top: 2.5%;
+    color: #55280B;
+    height: 150px;
+    width: 100%;
+    border-color: #F2F2F2;
+    border-style: none;
+}
+
 #botao{
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: 20%;
+    justify-content: left;
+    margin-top: 5%;
 }
 
 #btnSubmit{
@@ -139,16 +188,7 @@ main{
     background: #CD6D34;
     border-color: #CCC;
     border-style: none;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
-}
-
-.texto{
-    margin-left: 64.5%;
-    margin-top: 30%;
-}
-
-.texto p{
-    font-size: 36px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .logo{
@@ -233,12 +273,12 @@ footer nav ul li a{
     border-radius: 5px;
 }
 
-#faleConosco{
-    text-decoration: underline #dc661f 5px;
-}
-
 .cimabaixobaixo{
     width: 42.5%;
     display: flex;
     justify-content: space-evenly;
+}
+
+#faleConosco{
+    color: #f4d565;
 }
