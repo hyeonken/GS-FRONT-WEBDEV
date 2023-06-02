@@ -77,16 +77,16 @@ header nav ul li a{
 
 main{
     width: 100%;
-    height: 65vh;
+    height: 100%;
 }
 
 .texto{
-    margin-left: 66.5%;
-    margin-top: 25%;
+    margin-left: 64.5%;
+    margin-top: 30%;
 }
 
 .texto p{
-    text
+    font-size: 36px;
 }
 
 .logo{
@@ -99,7 +99,7 @@ main{
 
 .logo img{
     margin-left: 12%;
-    width: 150px;
+    width: 125px;
     max-width: 100%;
 }
 
@@ -132,7 +132,7 @@ main{
 
 }
 
-#slogan{
+#anuncio{
     margin: 26px 0px 26px 0px;
 }
 
@@ -143,7 +143,7 @@ footer{
     justify-content: right;
     align-items: right;
     background-color: #55280B;
-    margin-top: 85px;
+    /* margin-top: 1vh; */
 }
 
 footer nav ul{

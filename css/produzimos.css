@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Armata&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Armata', sans-serif;
+}
+
+body{
+    background-color: #F2F2F2;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.index{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+}
+
+header nav ul{
+    width: 100%;
+    /* height: 2vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 150px;
+    margin-top: 50px; */
+}
+
+header nav ul li a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #55280B;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#produzimos{
+    margin-right: 10%;
+}
+#produzimos a{
+    text-decoration: underline #dc661f 5px;
+}
+
+#empresas{
+    margin-right: 10%;
+}
+
+#login{
+    margin-right: 5%;
+}
+
+.cimabaixo{
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+.texto{
+    margin-left: 57.5%;
+    margin-top: 4%;
+    /* width: 50%; */
+}
+
+#titulo{
+    font-size: 48px;
+    color: #55280B;
+}
+
+#subtitulo{
+    color: #55280B;
+}
+
+.texto p{
+    text-align: justify;
+    margin-right: 30%;
+    margin-top: 2%;
+}
+
+.logo{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-grow: 1;
+}
+
+.logo img{
+    margin-left: 12%;
+    width: 125px;
+    max-width: 100%;
+}
+
+.parte_esquerda{
+    position: absolute;
+    margin-left: 10%;
+}
+
+.parte_esquerda h1{
+    margin: 0px 0px 0px 50px;
+    font-size: 48px;
+    text-align: right;
+    color: #55280B;
+}
+
+.parte_esquerda img{
+    width: 666.5px;
+}
+
+#anuncio{
+    margin: -2px;
+}
+
+#cima{
+    border-left: 10px solid #386F53;
+    border-right: 10px solid #386F53;
+}
+
+#baixo{
+    border-left: 10px solid #386F53;
+    border-right: 10px solid #386F53;
+}
+
+footer{
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    background-color: #55280B;
+    /* margin-top: 1vh; */
+}
+
+footer nav ul{
+    width: 100%;
+    min-height: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;
+}
+
+footer nav ul li a{
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #F2F2F2;
+    text-decoration: none;
+    display: inline-block;
+    /* padding: 10px 20px; */
+    border-radius: 5px;
+}
+
+.cimabaixobaixo{
+    width: 42.5%;
+    display: flex;
+    justify-content: space-evenly;
+}
