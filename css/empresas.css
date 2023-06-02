@@ -132,11 +132,16 @@ main{
 }
 
 .parte_esquerda img{
-    width: 666.5px;
+    width: 580px;
 }
 
-#anuncio{
-    margin: -2px;
+#imgmeio{
+    margin: -4px 0px -4px 0px;
+}
+
+#imgmeio img{
+    border-left: 10px solid #386F53;
+    border-right: 10px solid #386F53;
 }
 
 #cima{
