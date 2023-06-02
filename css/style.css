@@ -59,8 +59,18 @@ main{
     width: 100%;
 }
 
+#bloco{
+    width: 21%;
+    background-color: #D9D9D9;
+    margin-left: 60%;
+    margin-top: 100px;
+    border: 3px solid #55280B;
+}
+
 .logo img{
-    
+    margin-bottom: 50px;
+    width: 500px;
+    max-width: 100%;
 }
 
 
