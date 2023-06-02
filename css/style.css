@@ -11,11 +11,17 @@ body{
     background-color: #F2F2F2;
 }
 
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
 .index{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
+
 
 header{
     width: 100%;
@@ -23,11 +29,6 @@ header{
     display: flex;
     justify-content: right;
     align-items: right;
-}
-
-nav ul{
-    display: flex;
-    list-style: none;
 }
 
 header nav ul{
@@ -52,4 +53,55 @@ header nav ul li a{
     display: inline-block;
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+main{
+    width: 100%;
+}
+
+.logo img{
+    
+}
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    min-height: 5em;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    background-color: #55280B;
+}
+
+footer nav ul{
+    width: 100%;
+    min-height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+}
+
+footer nav ul li a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #F2F2F2;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#trabalhe{
+    margin-right: 850px;
 }
