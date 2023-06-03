@@ -8,10 +8,28 @@
     font-family: 'Armata', sans-serif;
 }
 
-body{
-    background-color: #F2F2F2;
+:root {
+    --text-color: #55280B;
+    --background-color: #F2F2F2;
+    --text-color-footer: #F2F2F2;
+    --background-color-footer: #55280B;
+    --text-color-escolhida: #f4d565;
+
 }
 
+
+body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+.dark-mode {
+    --text-color: #F2F2F2;
+    --background-color: #55280B;
+    --text-color-footer: #55280B;
+    --background-color-footer: #F2F2F2;
+    --text-color-escolhida: #CD6D34;
+}
 nav{
     width: 100%;
     display: flex;
@@ -30,7 +48,7 @@ nav ul{
 
 header{
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     display: flex;
 }
 
@@ -51,7 +69,7 @@ header nav ul li a{
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.05em;
-    color: #55280B;
+    color: var(--text-color);
     text-decoration: none;
     display: inline-block;
     border-radius: 5px;
@@ -78,15 +96,21 @@ header nav ul li a{
 main{
     width: 100%;
     height: 100%;
+    box-sizing: border-box;
 }
 
 .texto{
-    margin-left: 64.5%;
-    margin-top: 30%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-left: 37%;
+    margin-top: 27%;
+    width: 50%;
 }
 
 .texto p{
     font-size: 36px;
+    z-index: 1;
 }
 
 .logo{
@@ -112,7 +136,7 @@ main{
     margin: 0px 0px 0px 50px;
     font-size: 48px;
     text-align: right;
-    color: #55280B;
+    color: var(--text-color);
 }
 
 .parte_esquerda img{
@@ -131,6 +155,79 @@ main{
     border-top: 10px solid #386F53;
 
 }
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    height: 95px;
+    transform: rotate(90deg);
+    margin-left: 2.5%;
+    /* margin-top: 10%; */
+    margin-bottom: 3%;
+  }
+  
+/* Hide default HTML checkbox */
+.switch input {
+opacity: 0;
+width: 0;
+height: 0;
+}
+
+/* The slider */
+.slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: var(--background-color-footer);
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+
+.slider:before {
+position: absolute;
+content: "";
+height: 45px;
+width: 45px;
+left: 7px;
+bottom: 7px;
+background-color: var(--text-color-footer);
+;
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+
+input:checked + .slider {
+background-color: #F2F2F2;
+}
+
+
+input:focus + .slider {
+box-shadow: 0 0 1px #F2F2F2;
+}
+
+
+input:checked + .slider:before {
+-webkit-transform: translateX(45px);
+-ms-transform: translateX(45px);
+transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+border-radius: 50px;
+}
+
+.slider.round:before {
+border-radius: 50%;
+}
+
+
+
 
 .carrossel-geral{
     position: absolute;
@@ -162,7 +259,7 @@ main{
 }
 
 .botoes-carrossel .botao {
-    background-color: #55280B;
+    background-color: #dc661f;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -193,7 +290,7 @@ footer{
     display: flex;
     justify-content: right;
     align-items: right;
-    background-color: #55280B;
+    background-color: var(--background-color-footer);
     /* margin-top: 1vh; */
 }
 
@@ -214,7 +311,7 @@ footer nav ul li a{
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.05em;
-    color: #F2F2F2;
+    color: var(--text-color-footer);
     text-decoration: none;
     display: inline-block;
     /* padding: 10px 20px; */
@@ -228,18 +325,18 @@ footer nav ul li a{
 }
 
 #trabalhe{
-    color: #f4d565;
+    color: var(--text-color-escolhida);
 }
 
 .relogin{
-    color: #55280B;
+    color: var(--text-color);
     font-weight: bold;
     display: flex;
     margin-left: 2%;
 }
 
 .data{
-    color: #55280B;
+    color: var(--text-color);
     font-weight: bold;
     display: flex;
     margin-left: 1%;

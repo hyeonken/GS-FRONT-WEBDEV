@@ -72,3 +72,13 @@ let mes = `${(hoje.getMonth() + 1) < 10 ? "0" : ""}${hoje.getMonth() + 1}`;
 let ano = hoje.getFullYear();
 
 dataHoje.textContent = `${dia}/${mes}/${ano}`;
+
+
+const btnToggle = document.querySelector("#check")
+const corbody = document.querySelector("body")
+
+
+btnToggle.addEventListener("click", ()=> {
+    corbody.classList.toggle("dark-mode")
+})
+

@@ -106,7 +106,7 @@ main{
     display: flex;
     align-items: right;
     flex-direction: column;
-    margin-left: 60%;
+    margin-left: 65%;
     /* margin: 0% 0% 0% 25.5%; */
 }
 
@@ -284,7 +284,7 @@ border-radius: 50%;
     margin: 0px 0px 0px 50px;
     font-size: 48px;
     text-align: right;
-    color: #55280B;
+    color: var(--text-color);
 }
 
 .parte_esquerda img{
