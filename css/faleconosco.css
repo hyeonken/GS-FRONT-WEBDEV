@@ -282,3 +282,16 @@ footer nav ul li a{
 #faleConosco{
     color: #f4d565;
 }
+
+.relogin{
+    color: #55280B;
+    font-weight: bold;
+    display: flex;
+}
+
+.data{
+    color: #55280B;
+    font-weight: bold;
+    display: flex;
+    margin-left: 1%;
+}

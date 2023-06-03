@@ -132,6 +132,57 @@ main{
 
 }
 
+.carrossel-geral{
+    position: absolute;
+    right: 13.5%;
+    top: 20%;
+    max-width: 600px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    overflow: visible;
+}
+
+.carrossel .imagem {
+    display: none;
+    animation: mudarImagem 1s;
+    height: 450px;
+    width: 450px;
+}
+
+.carrossel .imagem.ativa {
+    display: block;
+}
+
+.botoes-carrossel {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.botoes-carrossel .botao {
+    background-color: #55280B;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    border-color: black;
+}
+
+.botoes-carrossel .botao.selecionado {
+    background-color: #f4d565;
+}
+@keyframes mudarImagem {
+    from {
+        opacity: 0.85;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 #anuncio{
     margin: 26px 0px 26px 0px;
 }
@@ -178,4 +229,18 @@ footer nav ul li a{
 
 #trabalhe{
     color: #f4d565;
+}
+
+.relogin{
+    color: #55280B;
+    font-weight: bold;
+    display: flex;
+    margin-left: 2%;
+}
+
+.data{
+    color: #55280B;
+    font-weight: bold;
+    display: flex;
+    margin-left: 1%;
 }
