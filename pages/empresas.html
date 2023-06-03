@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Para Empresas</title>
     <link rel="stylesheet" href="../css/empresas.css">
+    <script src="../js/empresas.js" defer></script>
 </head>
 <body>
     <div class="index">
@@ -31,20 +32,24 @@
                 <p>Nossas hortaliças são produzidas em ambiente 100% controlado, sem agrotóxicos e sem marcas de insetos, para garantir o melhor de cada um deles – no visual, no paladar e na saúde.</p>
                 <p>Nós economizamos até 95% de água e 60% de fertilizantes, se comparados com o campo. Somos 170 vezes mais produtivos por m², ajudando com a redução do desmatamento.</p>
                 <p>Compensamos 100% das nossas embalagens, que levam o selo <strong>eureciclo</strong>. A cada embalagem vendida, uma equivalente é reciclada.</p>
-                <p><strong>Quer saber mais? Acesse a página "Fale Conosco"!</strong></p>
+                <p><strong>Quer saber mais? É só preencher aqui que vamos entrar em contato o quanto antes!</strong></p>
                 <section id="formulario">
                     <form action="index.html" method="get" onsubmit="return false">
                         <div id="user">
                             <input type="text" name="nmUser" id="idUser" placeholder="Nome Completo">
-                            <input type="number" name="number" id="idNumber" placeholder="(xx) xxxxx - xxxx">
+                            <input type="tel" name="tel" id="idNumber" placeholder="(xx) xxxxx - xxxx">
                         </div>
                         <div id="email">
                             <input type="email" name="email" id="idEmail" placeholder="email@email.com">
-                            <button type="submit" id="btnSubmit">NOS CONTE</button>
+                            <button type="submit" id="btnSubmit">ENVIAR</button>
                         </div>
                     </form>
             </section>
             </section>
+            <label class="switch">
+                <input type="checkbox" id="check">
+                <span class="slider round"></span>
+            </label>
         </main>
         <section class="parte_esquerda">
             <img src="../img/crianca.jpg" alt="Criança comendo" id="cima">

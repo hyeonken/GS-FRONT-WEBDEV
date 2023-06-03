@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/login.js" defer></script>
 </head>
 <body>
     <div class="index">
@@ -23,26 +24,28 @@
                 </nav>
             </div>
         </header>
-        <main id="formsGeral">
-            <section>
-                <div>
-                    <img src="../img/logo.png" alt="Logo da NutriCraft">
-                </div>
-            </section>
-            <section id="formulario">
-                <h2>Login</h2>
-                <form action="index.html" method="get" onsubmit="return false">
-                    <div id="user">
-                        <input type="text" name="nmUser" id="idUser" placeholder="email@email.com">
+        <main>
+            <div id="formsGeral">
+                <section>
+                    <div>
+                        <img src="../img/logo.png" alt="Logo da NutriCraft">
                     </div>
-                    <div id="pass">
-                        <input type="password" name="pass" id="idPass" placeholder="Senha">
-                    </div>
-                    <div id="botao">
-                        <button type="submit" id="btnSubmit">ENTRAR</button>
-                    </div>
-                </form>
-            </section>
+                </section>
+                <section id="formulario">
+                    <h2>Login</h2>
+                    <form action="index.html" method="get" onsubmit="return false">
+                        <div id="user">
+                            <input type="text" name="nmUser" id="idUser" placeholder="email@email.com">
+                        </div>
+                        <div id="pass">
+                            <input type="password" name="pass" id="idPass" placeholder="Senha">
+                        </div>
+                        <div id="botao">
+                            <button type="submit" id="btnSubmit">ENTRAR</button>
+                        </div>
+                    </form>
+                </section>
+            </div>
         </main>
         <section class="parte_esquerda">
             <img src="../img/jantarfamilia.jpg" alt="Jantar em familia" id="cima">
@@ -52,6 +55,10 @@
             </div>
             <img src="../img/seolhando.webp" alt="Plantação de baixo" id="baixo">
         </section>
+        <label class="switch">
+            <input type="checkbox" id="check">
+            <span class="slider round"></span>
+        </label>
         <footer>
             <div class="cimabaixobaixo">
                 <nav>
