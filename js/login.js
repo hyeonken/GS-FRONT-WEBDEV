@@ -35,7 +35,7 @@ botao.addEventListener('click', () => {
 
     if(userUser === '' && userSenha === ''){
         alert('Por favor preencha todos os campos.')
-    }else if (userUser === 'admin@admin.com' && userSenha === 'admin123'){
+    }else if (userUser === 'Admin' && userSenha === '123456'){
         alert('Login realizado com sucesso!')
     } else { alert('Login recusado. Verifique novamente as credenciais.'); }
 });
