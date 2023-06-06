@@ -25,3 +25,17 @@ if (isDarkMode()) {
     imgLogin.style.marginLeft = "1%"
 }}
 document.body.addEventListener('change', toggleImageMode);
+
+// Validando formulário
+
+botao.addEventListener('click', () => {
+    const userUser = document.querySelector('#idUser').value;
+    const userSenha = document.querySelector('#idPass').value;
+    const botao = document.querySelector('#btnSubmit');
+
+    if(userUser === '' && userSenha === ''){
+        alert('Por favor preencha todos os campos.')
+    }else if (userUser === 'admin@admin.com' && userSenha === 'admin123'){
+        alert('Login realizado com sucesso!')
+    } else { alert('Login recusado. Verifique novamente as credenciais.'); }
+});
