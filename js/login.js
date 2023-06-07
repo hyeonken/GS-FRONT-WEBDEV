@@ -36,6 +36,7 @@ botao.addEventListener('click', () => {
     if(userUser === '' && userSenha === ''){
         alert('Por favor preencha todos os campos.')
     }else if (userUser === 'Admin' && userSenha === '123456'){
-        alert('Login realizado com sucesso!')
+        window.location =
+          'https://www.unicef.org/brazil/comunicados-de-imprensa/relatorio-da-onu-numeros-globais-de-fome-subiram-para-cerca-de-828-milhoes-em-2021';
     } else { alert('Login recusado. Verifique novamente as credenciais.'); }
 });
