@@ -35,18 +35,21 @@
                 <h2 id="subtitulo">ELOGIOS!</h2>
             </section>
             <section id="formulario">
+                <p id="textName"></p>
+                <p id="textFone"></p>
+                <p id="textEmail"></p>
                 <form action="index.html" method="get" onsubmit="return false">
                     <div id="user">
-                        <input type="text" name="nmUser" id="idUser" placeholder="Nome Completo">
+                        <input type="text" name="nmUser" id="idUser" placeholder="Nome Completo" maxlength="300" required>
                     </div>
                     <div id="email">
-                        <input type="email" name="email" id="idEmail" placeholder="email@email.com">
+                        <input type="email" name="email" id="idEmail" placeholder="email@email.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
                     </div>
                     <div id="number">
-                        <input type="tel" name="tel" id="idNumber" placeholder="(xx) xxxxx - xxxx">
+                        <input type="tel" name="tel" id="idNumber" placeholder="(xx) xxxxx - xxxx" pattern="\(\d{2}\)\s*\d{5}-\d{4}" maxlength="15" required>
                     </div>
                     <div id="coment">
-                        <textarea type="text" name="coment" id="idComent" placeholder="Nos conte o que pensa!"></textarea>
+                        <textarea type="text" name="coment" id="idComent" placeholder="Nos conte o que pensa!" maxlength="300" required></textarea>
                     </div>
                     <div id="botao">
                         <button type="submit" id="btnSubmit">NOS CONTE</button>

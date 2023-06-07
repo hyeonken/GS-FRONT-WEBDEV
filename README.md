@@ -14,10 +14,14 @@ Garantindo assim verduras **sempre perfeitas**, sem risco de safras ruins e com 
 **Nosso novo site** já está quase pronto, e você você selecionado para dar uma olhadinha antes de todos! Curioso? 🚀
 
 ---
+## Link do [Figma](https://www.figma.com/file/zSuzC1Ge3zcLMHJrV74mIR/NutriCraft?type=design&node-id=0%3A1&t=ytYvzIcDeGrKovFA-1)
+---
 
 ## Features implementadas:
 
-### Todas as páginas possuem darkmode.
+### Dark mode:
+
+* Todas as páginas possuem dark mode.
 
 ### Home:
 
@@ -35,7 +39,7 @@ Garantindo assim verduras **sempre perfeitas**, sem risco de safras ruins e com 
 ### Login:
 
 * Validação de login contento usuário e senha.
-* Caso consiga logar, usuário é direcionado ao site da [UNICEF] (https://www.unicef.org/brazil/comunicados-de-imprensa/relatorio-da-onu-numeros-globais-de-fome-subiram-para-cerca-de-828-milhoes-em-2021)
+* Caso consiga logar, usuário é direcionado ao site da [UNICEF](https://www.unicef.org/brazil/comunicados-de-imprensa/relatorio-da-onu-numeros-globais-de-fome-subiram-para-cerca-de-828-milhoes-em-2021)
 
 
 ### Em Construção:

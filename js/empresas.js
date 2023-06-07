@@ -11,7 +11,6 @@ const form = document.querySelector('form');
 const email = document.getElementById('idEmail');
 const telefone = document.getElementById('idNumber');
 const nome = document.querySelector('.nome');
-console.log(nome);
 
 // Função que escuta quando o submit acontece, dispara as validações e 
 // em caso de validação correta, dispara um alerta de cadastro realizado.
@@ -45,8 +44,6 @@ telefone.addEventListener('keyup', () => {
   }
 });
 
-console.log(nome)
-
 nome.addEventListener('keyup', () => {
   if (nome.value.length < 2) {
     textName.textContent = 'No mínimo 2 caracteres';
@@ -59,7 +56,6 @@ nome.addEventListener('keyup', () => {
 // o usuário digita.
 
 telefone.addEventListener('keypress', (e) => mascaraTelefone(e.target.value)); // Dispara quando digitado no campo
-console.log('oi');
 telefone.addEventListener('change', (e) => mascaraTelefone(e.target.value)); // Dispara quando autocompletado o campo
 
 const mascaraTelefone = (valor) => {
